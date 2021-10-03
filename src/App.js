@@ -1,13 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to the Mendota Water Temp Viewer!
-        </p>
-      </header>
+      <Header />
       <div className="Body">
         <p>Here we are this is where we should display some data</p>
       </div>

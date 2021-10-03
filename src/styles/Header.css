@@ -1,0 +1,6 @@
+.App-header {
+    min-height: 3vh;
+    width: 100vw;
+    font-size: calc(10px + 2vmin);
+    border-bottom: #00708b 1px solid;
+}
