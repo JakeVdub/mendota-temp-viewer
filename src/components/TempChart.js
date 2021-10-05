@@ -3,7 +3,6 @@ import {Line} from 'react-chartjs-2';
 import { useState, useEffect } from 'react';
 
 export default function TempChart({waterTempData}) {
-    console.log(waterTempData);
     const [chartData, setChartData] = useState({});
 
     // Helper function for formating a Date object as a string ("MM/DD HH:MM")
