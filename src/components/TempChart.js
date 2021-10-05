@@ -23,20 +23,60 @@ export default function TempChart({waterTempData}) {
                 {
                     label: "0ft",
                     data: waterTempData.map((dataStruct) => dataStruct['0ftTempData']),
-                    backgroundColor: [ 'rgba(255, 255, 255, 1)' ],
-                    borderColor: "#FFF",
+                    backgroundColor: "#96f1ff",
+                    borderColor: "#96f1ff",
                     borderWidth: 4,
                     cubicInterpolationMode: "monotone"
                 },
-                // {
-                //     label: "3ft",
-                //     data: [60, 60, 60, 62, 59, 60, 60, 60, 59, 58, 59, 60],
-                //     backgroundColor: [ 'rgba(255, 255, 255, 1)' ],
-                //     borderColor: "#555",
-                //     borderWidth: 4,
-                //     cubicInterpolationMode: "monotone"
-                // }
-            ],
+                {
+                    label: "10ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['10ftTempData']),
+                    backgroundColor: "#5ee2ff",
+                    borderColor: "#5ee2ff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+                {
+                    label: "20ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['20ftTempData']),
+                    backgroundColor: "#00d1ff",
+                    borderColor: "#00d1ff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+                {
+                    label: "30ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['30ftTempData']),
+                    backgroundColor: "#00bfff",
+                    borderColor: "#00bfff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+                {
+                    label: "40ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['40ftTempData']),
+                    backgroundColor: "#00abff",
+                    borderColor: "#00abff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+                {
+                    label: "50ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['50ftTempData']),
+                    backgroundColor: "#0096ff",
+                    borderColor: "#0096ff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+                {
+                    label: "60ft",
+                    data: waterTempData.map((dataStruct) => dataStruct['60ftTempData']),
+                    backgroundColor: '#007dff',
+                    borderColor: "#007dff",
+                    borderWidth: 4,
+                    cubicInterpolationMode: "monotone"
+                },
+            ]
         });
     }
 
