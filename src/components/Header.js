@@ -1,11 +1,10 @@
 import '../styles/Header.css';
+import titleImg from '../Mendota_Title.svg';
 
 export default function Header() {
     return (
         <header className="App-header">
-            <p>
-                Welcome to the Mendota Water Temp Viewer!
-            </p>
+            <img src={titleImg} />
         </header>
     );
 };

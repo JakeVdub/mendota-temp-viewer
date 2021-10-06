@@ -2,5 +2,12 @@
     min-height: 3vh;
     width: 100vw;
     font-size: calc(10px + 2vmin);
-    border-bottom: #00708b 1px solid;
+    box-shadow: 0px 2px 3px rgba(67, 232, 232, 0.8);
+    background-color: #0A0A0A;
+}
+
+img {
+    float: left;
+    padding: 13px 35px;
+    width: 200px;
 }
