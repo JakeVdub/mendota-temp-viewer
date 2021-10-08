@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #0D0D0D;
   color: white;
   display: flex;
   flex-direction: column;
@@ -8,6 +7,3 @@
   justify-content: center;
 }
 
-.Body {
-  height: 96vh;
-}
