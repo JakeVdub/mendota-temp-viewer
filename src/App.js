@@ -34,6 +34,10 @@ export default function App() {
                 });
             }
 
+            const borderWidth = 3;
+            const cubicInterpolationMode = "monotone"
+
+            // TODO: Make a function that generates the dataset object array instead of manually writing it out
             setWaterTempData({
                 labels: dataArr.map((dataStruct) => {
                     let date = new Date(dataStruct['timestamp']);
@@ -45,56 +49,56 @@ export default function App() {
                         data: dataArr.map((dataStruct) => dataStruct['0ftTempData']),
                         backgroundColor: "#96f1ff",
                         borderColor: "#96f1ff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "10ft",
                         data: dataArr.map((dataStruct) => dataStruct['10ftTempData']),
                         backgroundColor: "#5ee2ff",
                         borderColor: "#5ee2ff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "20ft",
                         data: dataArr.map((dataStruct) => dataStruct['20ftTempData']),
                         backgroundColor: "#00d1ff",
                         borderColor: "#00d1ff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "30ft",
                         data: dataArr.map((dataStruct) => dataStruct['30ftTempData']),
                         backgroundColor: "#00bfff",
                         borderColor: "#00bfff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "40ft",
                         data: dataArr.map((dataStruct) => dataStruct['40ftTempData']),
                         backgroundColor: "#00abff",
                         borderColor: "#00abff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "50ft",
                         data: dataArr.map((dataStruct) => dataStruct['50ftTempData']),
                         backgroundColor: "#0096ff",
                         borderColor: "#0096ff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                     {
                         label: "60ft",
                         data: dataArr.map((dataStruct) => dataStruct['60ftTempData']),
                         backgroundColor: '#007dff',
                         borderColor: "#007dff",
-                        borderWidth: 3,
-                        cubicInterpolationMode: "monotone"
+                        borderWidth: borderWidth,
+                        cubicInterpolationMode: cubicInterpolationMode
                     },
                 ]
             });
